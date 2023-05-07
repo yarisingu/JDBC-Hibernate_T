@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 style="color:red"> Student Form</h1>
+
+
+<form action="student"> 
+<table> 
+
+<tr> 
+<th>Name: </th>
+<th><input type="text" name="name"> </th>
+</tr>
+
+<tr> 
+<th>Mobile:  </th>
+<th><input type="tel" name="mobile" pattern="[0-9]{10}"> </th>
+</tr>
+
+<tr> 
+<th>Email : </th>
+<th><input type="email" name="email"> </th>
+</tr>
+
+<tr> 
+<th> Date of Birth :  </th>
+<th><input type="date" name="dob"> </th>
+</tr>
+
+<tr> 
+<th>Gender: </th>
+<th><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">FeMale </th>
+</tr>
+
+<tr> 
+<th>Address: </th>
+<th><textarea rows="5" cols="30" name="address"></textarea> </th>
+</tr>
+
+<tr> 
+<th>Skills: </th>
+<th>
+<input type="checkbox" name="skills" value="Leadership">Leadership
+<input type="checkbox" name="skills" value="TeamPlayer">Team Player
+<input type="checkbox" name="skills" value="GoodSpeaker">Good Speaker
+ </th>
+</tr>
+
+<tr>
+<th>Country: </th>
+<th>
+<select name="country">
+<option> India</option>
+<option> Uganda</option>
+<option> UAE</option>
+</select>
+ </th>
+</tr>
+
+<tr> 
+<th><button>Cancel</button></th>
+<th><button>Save</button></th>
+</tr>
+
+</table>
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  
+  <servlet>
+<servlet-name>addition</servlet-name>
+<servlet-class>servlet_demo.Add</servlet-class>
+</servlet>
+
+
+ <servlet>
+<servlet-name>subtraction</servlet-name>
+<servlet-class>servlet_demo.Sub</servlet-class>
+</servlet>
+
+ <servlet>
+ 	<servlet-name>Multiplication</servlet-name>
+ 	<display-name>Multiplication</display-name>
+ 	<description></description>
+ 	<servlet-class>servlet_demo.Multiplication</servlet-class>
+ </servlet>
+
+<servlet-mapping>
+<servlet-name>addition</servlet-name>
+<url-pattern>/add</url-pattern>
+</servlet-mapping>
+
+
+<servlet-mapping>
+<servlet-name>subtraction</servlet-name>
+<url-pattern>/sub</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>Multiplication</servlet-name>
+	<url-pattern>/mul</url-pattern>
+</servlet-mapping>
+
+</web-app>

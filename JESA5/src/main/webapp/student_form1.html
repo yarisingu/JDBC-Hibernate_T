@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+    <title>Student Form</title>
+  </head>
+  <body>
+    <h1>Student Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+     	<br>
+     	<br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+     <br>
+     	<br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+     <br>
+     	<br>
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+     <br>
+     	<br>
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+     <br>
+     	<br>
+      <label for="program">Program:</label>
+      <select id="program" name="program" required>
+        <option value="">Select program</option>
+        <option value="computer_science">Computer Science</option>
+        <option value="engineering">Engineering</option>
+        <option value="business">Business</option>
+      </select>
+     <br>
+     	<br>
+      <label for="year">Year:</label>
+      <input type="number" id="year" name="year" min="1" max="5" required>
+     <br>
+     	<br>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="3"></textarea>
+     <br>
+     	<br>
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country">
+     <br>
+     	<br>
+      <button type="submit">Submit</button>
+      <button type="button" onclick="cancel()">Cancel</button>
+    </form>
+  </body>
+</html>
